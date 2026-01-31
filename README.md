@@ -1,1 +1,15 @@
 # AI-Fitness-Tracker
+The system smooths angle calculations with rolling averages to improve accuracy, provides live feedback on posture and reps, and generates real-time performance graphs inside a Streamlit dashboard.
+Each workout session is automatically logged with timestamp, repetitions, and duration in a structured CSV file, enabling users to review progress through historical summaries and trend visualizations.
+This project simulates a smart personal AI trainer — helping fitness enthusiasts track their exercise form and progress without requiring expensive wearables.
+
+⚙️ Tech Stack
+
+Programming Language: Python 🐍
+Computer Vision: OpenCV (for webcam streaming & image processing)
+Pose Estimation: MediaPipe Pose (for landmark detection & angle calculations)
+Web Framework / UI: Streamlit (interactive dashboard & controls)
+Data Handling: Pandas (workout logs & history tracking)
+Visualization: Matplotlib & Streamlit Charts (live graphs & historical trends)
+Storage: CSV logging (workout history persistence)
+Other: NumPy, Collections (deque for angle smoothing), datetime for timestamps
